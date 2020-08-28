@@ -4,7 +4,7 @@
 // and can be used in places where a value is expected
 
 // LINQPad evaluates the expression and outputs the value
-// only one expression is evaluated
+// The expression editor can only evalute one expression
 
 
 // literals are expressions
