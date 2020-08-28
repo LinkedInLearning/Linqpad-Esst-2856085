@@ -12,8 +12,7 @@ var oddNumbers = new List<long> { 9, 7, 5, 3, 1, -1, -3 - 5 };
 
 // define the query
 var q = from n in oddNumbers
-				orderby n
-				select n;
+								select n;
 				
 Console.WriteLine (q);	
 				

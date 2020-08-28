@@ -2,8 +2,8 @@
 
  static void Main()
 {
-	{
-		
-		Console.WriteLine ("Hello");
-	}
+
+	int x = 65;
+	Console.WriteLine($"x = {x}");
+	
 }
