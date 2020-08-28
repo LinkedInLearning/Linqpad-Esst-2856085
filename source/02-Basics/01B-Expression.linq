@@ -1,7 +1,7 @@
 <Query Kind="Expression" />
 
-// Operators are expressions
+// The expression editor can only evalute one expression
 
-//"Welcome: " +  "Melville"
-
-500 > 40
+// Use the statement editor for  multiple lines of code 
+"Hello";
+65M;

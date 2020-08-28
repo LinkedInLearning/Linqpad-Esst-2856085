@@ -1,10 +1,7 @@
 <Query Kind="Expression" />
 
-// Functions are expressions
+// Operators are expressions
 
+500 > 40
 
-
-65M.ToString("C")
-
-//"hello".ToUpper()
-// Math.Sqrt(Math.Abs(3) )
+//"Welcome: " +  "Melville"
