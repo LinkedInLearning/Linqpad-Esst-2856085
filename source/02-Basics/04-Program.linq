@@ -2,9 +2,9 @@
 
 void Main()
 {
-	var result = GetMagicNumber() + 200;
+	var total = GetMagicNumber() + 200;
 	
-	result.Dump("Call your own methods");
+	Console.WriteLine(total);
 }
 
 // Define other methods and classes here
