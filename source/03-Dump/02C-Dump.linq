@@ -1,13 +1,11 @@
 <Query Kind="Statements" />
 
-// Dump() is an extension method
-// Created by the LINQPad team
+var colors = new List<string> {"purple, orange, red, green, yellow"};
+colors.Dump();
 
-// Outputs formatted data to the results window
+var colorValues = new Dictionary<string, string>();
 
-// it chooses a format based on underlying type.
+colorValues.Add("purple" , "553311");
+colorValues.Add ("yellow","FF63DD");
 
-
-
-System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.Dump();
-System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.DayNames.Dump();
+colorValues.Dump();

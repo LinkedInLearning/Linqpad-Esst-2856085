@@ -1,11 +1,8 @@
 <Query Kind="Statements" />
 
-var colors = new List<string> {"purple, orange, red, green, yellow"};
-colors.Dump();
+// output single column table 
 
-var colorValues = new Dictionary<string, string>();
+27.9.GetType().GetInterfaces().Dump();
 
-colorValues.Add("purple" , "553311");
-colorValues.Add ("yellow","FF63DD");
-
-colorValues.Dump();
+var currentCulture = System.Globalization.CultureInfo.CurrentCulture;
+currentCulture.DateTimeFormat.DayNames.Dump();
