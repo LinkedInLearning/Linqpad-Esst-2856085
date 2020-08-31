@@ -1,14 +1,11 @@
 <Query Kind="Statements" />
 
-int x = 65;
-bool isLargeNumber = x > 1000;
-string isLargeResult = isLargeNumber ? "Large Number" : "Small number";
+var colors = new List<string> { "purple, orange, red, green, yellow, red, blue" };
+colors.Dump("Colors");
 
-x.Dump();
+var colorValues = new Dictionary<string, string>();
 
-//// add header
-//x.Dump("X value");
-//
-//isLargeNumber.Dump ("isLargeNumber");
-//
-//isLargeResult.Dump("isLargeResult");
+colorValues.Add("purple", "553311");
+colorValues.Add("yellow", "FF63DD");
+
+colorValues.Dump(description: "Keys and values");

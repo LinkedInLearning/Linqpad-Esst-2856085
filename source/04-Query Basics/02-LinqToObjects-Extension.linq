@@ -1,23 +1,22 @@
 <Query Kind="Statements" />
 
 // use LINQ query operators.
-
+#region source
 var colors = new List<string>
 		{ "Green", "Blush", "Yellow",  "Red", "Orange", "Burgandy","Purple",
 			 "White", "Black", "Blue" ,"Bronze"};
+
 colors.Dump("Original List");
+#endregion
 
-
-// var w = Enumerable.Where(colors, c => c.StartsWith("B"));
 
 // call with extension method syntax
 var w = colors.Where(c => c.StartsWith("B"));
 
-w.Dump();
+w.Dump("'Where' query operator - extension method");
 
-// or
-// var a = Enumerable.Last(colors);
-var a = colors.Last().Dump();
+var a = colors.Last().Dump("'Last' query operator - extension method");
 
 // pipeline
-var b = colors.Where(c => c.StartsWith("B")).Last();
+var b = colors.Where(c => c.StartsWith("B")).First();
+b.Dump("Pipeline");

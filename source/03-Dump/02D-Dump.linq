@@ -1,6 +1,10 @@
-<Query Kind="Statements" />
+<Query Kind="Statements">
+  <Reference Relative="..\Assets\VisualStudio\CourseLib\bin\Release\netstandard2.0\CourseLib.dll">C:\Users\WR\Source\Repos\Linqpad-Esst-2856085\source\Assets\VisualStudio\CourseLib\bin\Release\netstandard2.0\CourseLib.dll</Reference>
+</Query>
 
 // Output as HTML table
 
-//System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.Dump();
-System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.DayNames.Dump();
+var q = from wc in CourseLib.ColorSource.GetColors()
+				where wc.ColorFamily == CourseLib.ColorFamily.Orange
+				select wc;
+q.Dump();
