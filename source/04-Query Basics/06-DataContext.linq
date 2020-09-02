@@ -1,4 +1,4 @@
-<Query Kind="SQL">
+<Query Kind="Statements">
   <Connection>
     <ID>54bf9502-9daf-4093-88e8-7177c129999f</ID>
     <NamingServiceVersion>2</NamingServiceVersion>
@@ -9,26 +9,5 @@
   </Connection>
 </Query>
 
--- use SQL for query
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--- Select  [Product Name], [Unit Price]
---from Products 
---where [unit price] >40
+Shippers.Dump();
+Orders.Dump();

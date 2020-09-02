@@ -4,10 +4,11 @@
 
 var root = Path.GetDirectoryName (Util.CurrentQueryPath);
 var xmlFilePath  = @"\Assets\RobotNames.xml";
-var upPath = @"\..\" ;
-root.Dump();
+var upPath = @"\.." ;
+var completePath = root + upPath + xmlFilePath;
+completePath.Dump();
 
 // load the root element and children
-var xmlTree = XElement.Load (root + upPath + xmlFilePath);
+XElement xmlTree = XElement.Load (completePath);
 
-xmlTree.Nodes().Dump();
+xmlTree.Elements().Dump();

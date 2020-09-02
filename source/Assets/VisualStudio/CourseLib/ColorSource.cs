@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace CourseLib
 {
@@ -2288,6 +2290,11 @@ namespace CourseLib
 
 			return temp;
 		}
-
+		public  static List<WebColor> GetColorsSlow()
+			{
+			Thread.Sleep(3000);
+			return GetColors();
+			}
+		
 	}
 }
