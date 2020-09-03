@@ -1,7 +1,7 @@
 # LINQPad Essential Training
 This is the repository for the LinkedIn Learning course `LINQPad Essential training`. The full course is available from [LinkedIn Learning](LICOURSEURL).
 
-##Description
+## Description
 LINQPad is a fantastic tool for testing.NET code snippets. Use its code editor and type a few lines of C#, VB or F# code in the editor and press run.  Instantly, see the results in the output window.  It excels at working with Microsoft LINQ (Language Integrated Query) and supports all flavors of LINQ (Linq to objects, Linq to databases, and Linq to XML).  With LINQPad you can test C# expressions, or full programs, in a lightweight code editor. It can be a great timer-saver in your development workflow.
 
 ## Instructions
